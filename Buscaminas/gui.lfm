@@ -1,0 +1,51 @@
+object ventanaPrincipal: TventanaPrincipal
+  Left = 564
+  Height = 240
+  Top = 288
+  Width = 320
+  Caption = 'KA Buscaminas Pascal'
+  ClientHeight = 220
+  ClientWidth = 320
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object barraEstado: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 197
+    Width = 320
+    Panels = <>
+  end
+  object MainMenu1: TMainMenu
+    left = 67
+    top = 41
+    object menuJuego: TMenuItem
+      Caption = '&Juego'
+      object menuJuego_Nuevo: TMenuItem
+        Caption = '&Nuevo...'
+        OnClick = menuJuego_NuevoClick
+      end
+      object MenuItem2: TMenuItem
+        Caption = '-'
+      end
+      object menuJuego_Salir: TMenuItem
+        Caption = '&Salir'
+        OnClick = menuJuego_SalirClick
+      end
+    end
+    object menuAcciones: TMenuItem
+      Caption = '&Acciones'
+      object menuAcciones_marcarSegura: TMenuItem
+        Caption = '&Despejar segura'
+        OnClick = menuAcciones_marcarSeguraClick
+      end
+    end
+    object MenuItem1: TMenuItem
+      Caption = '&Opciones'
+      object menuOpciones_modoDebug: TMenuItem
+        Caption = 'Modo DE&BUG'
+        OnClick = menuOpciones_modoDebugClick
+      end
+    end
+  end
+end

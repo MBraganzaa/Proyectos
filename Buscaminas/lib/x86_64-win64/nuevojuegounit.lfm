@@ -1,0 +1,108 @@
+object ventanaJuegoNuevo: TventanaJuegoNuevo
+  Left = 528
+  Height = 116
+  Top = 370
+  Width = 295
+  BorderStyle = bsDialog
+  Caption = 'Iniciar juego nuevo'
+  ClientHeight = 116
+  ClientWidth = 295
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object etiquetaLargo: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 33
+    Caption = 'Largo:'
+    ParentColor = False
+  end
+  object spinLargo: TSpinEdit
+    Left = 48
+    Height = 23
+    Top = 8
+    Width = 50
+    MinValue = 5
+    TabOrder = 0
+    Value = 10
+  end
+  object etiquetaAncho: TLabel
+    Left = 104
+    Height = 15
+    Top = 8
+    Width = 38
+    Caption = 'Ancho:'
+    ParentColor = False
+  end
+  object spinAncho: TSpinEdit
+    Left = 144
+    Height = 23
+    Top = 8
+    Width = 50
+    MinValue = 5
+    TabOrder = 1
+    Value = 10
+  end
+  object Label1: TLabel
+    Left = 200
+    Height = 15
+    Top = 8
+    Width = 35
+    Caption = 'Minas:'
+    ParentColor = False
+  end
+  object spinCantidadMinas: TSpinEdit
+    Left = 240
+    Height = 23
+    Top = 8
+    Width = 48
+    MaxValue = 10000
+    TabOrder = 2
+    Value = 5
+  end
+  object botonFacil: TButton
+    Left = 8
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'FACIL'
+    Font.Color = clNone
+    OnClick = botonFacilClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object botonMedio: TButton
+    Left = 104
+    Height = 25
+    Top = 40
+    Width = 80
+    Caption = 'MEDIO'
+    OnClick = botonMedioClick
+    TabOrder = 4
+  end
+  object botonDificil: TButton
+    Left = 208
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'DIFICIL'
+    OnClick = botonDificilClick
+    TabOrder = 5
+  end
+  object ButtonPanel1: TButtonPanel
+    Left = 6
+    Height = 34
+    Top = 76
+    Width = 283
+    OKButton.Name = 'OKButton'
+    OKButton.DefaultCaption = True
+    HelpButton.Name = 'HelpButton'
+    HelpButton.DefaultCaption = True
+    CloseButton.Name = 'CloseButton'
+    CloseButton.DefaultCaption = True
+    CancelButton.Name = 'CancelButton'
+    CancelButton.DefaultCaption = True
+    TabOrder = 6
+    ShowButtons = [pbOK, pbCancel]
+  end
+end

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="KALifeGame.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="KALifeGAme"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="controlador.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Ventana"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Controlador"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="72"/>
+        <CursorPos X="48" Y="142"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="theLife.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="84"/>
+        <CursorPos X="5" Y="97"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="controlador.pas"/>
+        <Caret Line="60" Column="12" TopLine="53"/>
+      </Position1>
+      <Position2>
+        <Filename Value="controlador.pas"/>
+        <Caret Line="107" Column="6" TopLine="103"/>
+      </Position2>
+      <Position3>
+        <Filename Value="theLife.pas"/>
+        <Caret Line="63" Column="105" TopLine="89"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

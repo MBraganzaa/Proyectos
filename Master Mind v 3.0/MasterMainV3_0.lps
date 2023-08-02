@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="114"/>
+        <CursorPos X="6" Y="217"/>
+        <UsageCount Value="37"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="190" Column="67" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="188" Column="67" TopLine="165"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="215" Column="26" TopLine="198"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="182" Column="72" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="184" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="185" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="186" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="187" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="183" Column="58" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="185" Column="55" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="186" Column="54" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="185" Column="54" TopLine="164"/>
+      </Position>
+      <Position>
+        <Filename Value="MasterMainV3_0.lpr"/>
+        <Caret Line="186" Column="51" TopLine="164"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="s"/>
+      </Item>
+      <Item>
+        <Expression Value="j"/>
+      </Item>
+      <Item>
+        <Expression Value="n"/>
+      </Item>
+      <Item>
+        <Expression Value="i"/>
+      </Item>
+      <Item>
+        <Expression Value="h.info[s]. codigo"/>
+      </Item>
+      <Item>
+        <Expression Value="codigoExtra"/>
+      </Item>
+      <Item>
+        <Expression Value="c"/>
+      </Item>
+      <Item>
+        <Expression Value="i"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>

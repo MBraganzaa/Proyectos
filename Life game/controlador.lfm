@@ -1,0 +1,127 @@
+object Ventana: TVentana
+  Left = 338
+  Height = 605
+  Top = 52
+  Width = 800
+  Caption = 'El juego de la vida'
+  ClientHeight = 605
+  ClientWidth = 800
+  OnCreate = FormCreate
+  OnResize = FormResize
+  LCLVersion = '1.8.4.0'
+  object PaintBox1: TPaintBox
+    Left = 0
+    Height = 568
+    Top = 40
+    Width = 800
+    OnClick = PaintBox1Click
+    OnMouseMove = PaintBox1MouseMove
+  end
+  object etiquetaAncho: TLabel
+    Left = 8
+    Height = 15
+    Top = 8
+    Width = 90
+    Caption = 'Ancho (10/1000):'
+    ParentColor = False
+  end
+  object spinAncho: TSpinEdit
+    Left = 104
+    Height = 23
+    Top = 8
+    Width = 50
+    MaxValue = 10000
+    MinValue = 5
+    TabOrder = 0
+    Value = 100
+  end
+  object etiquetaLargo: TLabel
+    Left = 184
+    Height = 15
+    Top = 8
+    Width = 85
+    Caption = 'Largo (10/1000):'
+    ParentColor = False
+  end
+  object spinLargo: TSpinEdit
+    Left = 280
+    Height = 23
+    Top = 8
+    Width = 50
+    MaxValue = 100000
+    MinValue = 5
+    TabOrder = 1
+    Value = 100
+  end
+  object botonIniciar: TButton
+    Left = 336
+    Height = 25
+    Top = 8
+    Width = 72
+    Caption = 'Iniciar'
+    OnClick = botonIniciarClick
+    TabOrder = 2
+  end
+  object etiquetaGeneraciones: TLabel
+    Left = 488
+    Height = 15
+    Top = 8
+    Width = 74
+    Caption = 'Generaciones:'
+    ParentColor = False
+  end
+  object etiquetaNumGeneraciones: TLabel
+    Left = 592
+    Height = 18
+    Top = 8
+    Width = 10
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -16
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object etiquetaPoblacion: TLabel
+    Left = 656
+    Height = 15
+    Top = 8
+    Width = 56
+    Caption = 'Población:'
+    ParentColor = False
+  end
+  object etiquetaNumeroPoblacion: TLabel
+    Left = 744
+    Height = 18
+    Top = 8
+    Width = 10
+    Caption = '0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -16
+    Font.Name = 'Arial Rounded MT Bold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object botonPausa: TButton
+    Left = 408
+    Height = 25
+    Top = 8
+    Width = 72
+    Caption = 'Pausar'
+    OnClick = botonPausaClick
+    TabOrder = 3
+  end
+  object ejecucion: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = ejecucionTimer
+    left = 88
+    top = 176
+  end
+end

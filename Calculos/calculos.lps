@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="calculos.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="12" Y="5"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="areaperimetro.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="AreaPerimetro"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="8"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="7">
+      <Position>
+        <Filename Value="areaperimetro.pas"/>
+        <Caret Line="16" Column="31"/>
+      </Position>
+      <Position>
+        <Filename Value="calculos.lpr"/>
+        <Caret Line="20" Column="92"/>
+      </Position>
+      <Position>
+        <Filename Value="calculos.lpr"/>
+        <Caret Line="15" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="calculos.lpr"/>
+        <Caret Line="20" Column="62"/>
+      </Position>
+      <Position>
+        <Filename Value="calculos.lpr"/>
+        <Caret Line="15" Column="12"/>
+      </Position>
+      <Position>
+        <Filename Value="calculos.lpr"/>
+        <Caret Line="23" Column="36"/>
+      </Position>
+      <Position>
+        <Filename Value="calculos.lpr"/>
+        <Caret Line="22" Column="62"/>
+      </Position>
+      <Position>
+        <Filename Value="calculos.lpr"/>
+        <Caret Line="48" Column="57" TopLine="16"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

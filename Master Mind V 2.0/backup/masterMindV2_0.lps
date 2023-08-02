@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="57"/>
+        <CursorPos Y="70"/>
+        <UsageCount Value="24"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="70" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="70" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="70" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="67" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="68" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="70" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="71" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="73" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="76" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="77" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="78" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="70" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="71" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="73" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="74" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="70" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="70" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="69" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="67" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="84" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="85" TopLine="57"/>
+      </Position>
+      <Position>
+        <Filename Value="masterMindV2_0.lpr"/>
+        <Caret Line="34" Column="67" TopLine="20"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="masterMindV2_0.lpr"/>
+        <Line Value="70"/>
+      </Item>
+    </BreakPoints>
+    <Watches>
+      <Item>
+        <Expression Value="n"/>
+      </Item>
+      <Item>
+        <Expression Value="j"/>
+      </Item>
+      <Item>
+        <Expression Value="codadivinador"/>
+      </Item>
+      <Item>
+        <Expression Value="codpensador"/>
+      </Item>
+      <Item>
+        <Expression Value="buenas"/>
+      </Item>
+      <Item>
+        <Expression Value="regulares"/>
+      </Item>
+      <Item>
+        <Expression Value="M"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>
