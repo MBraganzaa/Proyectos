@@ -4,12 +4,12 @@
     <PathDelim Value="\"/>
     <Version Value="12"/>
     <BuildModes Active="Default"/>
-    <Units Count="8">
+    <Units Count="13">
       <Unit0>
         <Filename Value="Buscaminas.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="42" Y="10"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -20,9 +20,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="GUI"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="28"/>
-        <CursorPos X="5" Y="239"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="184"/>
+        <CursorPos X="69" Y="137"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
       </Unit1>
       <Unit2>
@@ -33,9 +33,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="nuevoJuegoUnit"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="39"/>
-        <CursorPos X="41" Y="37"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="10"/>
+        <CursorPos X="45" Y="23"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -44,9 +44,9 @@
         <UnitName Value="gameEngine"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="3"/>
-        <TopLine Value="33"/>
-        <CursorPos X="72" Y="55"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="75"/>
+        <CursorPos X="16" Y="75"/>
+        <UsageCount Value="53"/>
         <Loaded Value="True"/>
       </Unit3>
       <Unit4>
@@ -83,124 +83,210 @@
         <CursorPos X="3" Y="559"/>
         <UsageCount Value="10"/>
       </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="2942"/>
+        <CursorPos Y="2959"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="C:\lazarus\lcl\include\buttoncontrol.inc"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="5"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\lcl\include\buttons.inc"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="153"/>
+        <CursorPos Y="170"/>
+        <UsageCount Value="19"/>
+        <Loaded Value="True"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="C:\lazarus\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="5418"/>
+        <CursorPos Y="5434"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="C:\lazarus\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="94"/>
+        <CursorPos Y="122"/>
+        <UsageCount Value="18"/>
+        <Loaded Value="True"/>
+      </Unit12>
     </Units>
-    <JumpHistory Count="28" HistoryIndex="27">
+    <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="gui.pas"/>
-        <Caret Line="162" Column="20" TopLine="142"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="278" TopLine="250"/>
       </Position1>
       <Position2>
-        <Filename Value="gui.pas"/>
-        <Caret Line="91" Column="51" TopLine="79"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="279" TopLine="251"/>
       </Position2>
       <Position3>
-        <Filename Value="gui.pas"/>
-        <Caret Line="158" Column="130" TopLine="145"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="280" TopLine="252"/>
       </Position3>
       <Position4>
-        <Filename Value="gui.pas"/>
-        <Caret Line="57" Column="17" TopLine="40"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="281" TopLine="253"/>
       </Position4>
       <Position5>
-        <Filename Value="gui.pas"/>
-        <Caret Line="133" Column="64" TopLine="118"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="282" TopLine="254"/>
       </Position5>
       <Position6>
-        <Filename Value="gui.pas"/>
-        <Caret Line="113" Column="37" TopLine="93"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="283" TopLine="255"/>
       </Position6>
       <Position7>
         <Filename Value="gameengine.pas"/>
-        <Caret Line="83" Column="22" TopLine="73"/>
+        <Caret Line="285" TopLine="257"/>
       </Position7>
       <Position8>
-        <Filename Value="gui.pas"/>
-        <Caret Line="117" Column="11" TopLine="117"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="286" TopLine="258"/>
       </Position8>
       <Position9>
-        <Filename Value="gui.pas"/>
-        <Caret Line="118" Column="11" TopLine="118"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="292" TopLine="275"/>
       </Position9>
       <Position10>
-        <Filename Value="gui.pas"/>
-        <Caret Line="119" Column="11" TopLine="119"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="293" TopLine="275"/>
       </Position10>
       <Position11>
-        <Filename Value="gui.pas"/>
-        <Caret Line="121" Column="11" TopLine="121"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="294" TopLine="275"/>
       </Position11>
       <Position12>
-        <Filename Value="gui.pas"/>
-        <Caret Line="228" Column="6" TopLine="205"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="295" TopLine="275"/>
       </Position12>
       <Position13>
-        <Filename Value="gui.pas"/>
-        <Caret Line="229" Column="6" TopLine="206"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="296" TopLine="275"/>
       </Position13>
       <Position14>
-        <Filename Value="gui.pas"/>
-        <Caret Line="228" Column="6" TopLine="205"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="297" TopLine="275"/>
       </Position14>
       <Position15>
-        <Filename Value="gui.pas"/>
-        <Caret Line="225" TopLine="201"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="299" TopLine="275"/>
       </Position15>
       <Position16>
-        <Filename Value="gui.pas"/>
-        <Caret Line="51" Column="43" TopLine="38"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="300" TopLine="275"/>
       </Position16>
       <Position17>
-        <Filename Value="gui.pas"/>
-        <Caret Line="235" Column="14" TopLine="212"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="171" TopLine="153"/>
       </Position17>
       <Position18>
-        <Filename Value="gui.pas"/>
-        <Caret Line="108" Column="16" TopLine="91"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="175" TopLine="153"/>
       </Position18>
       <Position19>
-        <Filename Value="gui.pas"/>
-        <Caret Line="134" Column="45" TopLine="120"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="184" TopLine="157"/>
       </Position19>
       <Position20>
-        <Filename Value="gui.pas"/>
-        <Caret Line="229" Column="52" TopLine="213"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="307" TopLine="290"/>
       </Position20>
       <Position21>
-        <Filename Value="gui.pas"/>
-        <Caret Line="232" Column="14" TopLine="214"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="308" TopLine="290"/>
       </Position21>
       <Position22>
-        <Filename Value="gui.pas"/>
-        <Caret Line="249" Column="33" TopLine="231"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="309" TopLine="290"/>
       </Position22>
       <Position23>
-        <Filename Value="gui.pas"/>
-        <Caret Line="247" Column="7" TopLine="235"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="312" TopLine="290"/>
       </Position23>
       <Position24>
         <Filename Value="gameengine.pas"/>
-        <Caret Line="7" Column="20"/>
+        <Caret Line="357" Column="34" TopLine="330"/>
       </Position24>
       <Position25>
-        <Filename Value="gui.pas"/>
-        <Caret Line="250" Column="7" TopLine="231"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="356" Column="46" TopLine="339"/>
       </Position25>
       <Position26>
-        <Filename Value="gui.pas"/>
-        <Caret Line="53" Column="7" TopLine="39"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="414" Column="42" TopLine="380"/>
       </Position26>
       <Position27>
-        <Filename Value="gui.pas"/>
-        <Caret Line="52" Column="7" TopLine="39"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="363" Column="20" TopLine="347"/>
       </Position27>
       <Position28>
-        <Filename Value="gui.pas"/>
-        <Caret Line="51" Column="7" TopLine="39"/>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="383" Column="20" TopLine="367"/>
       </Position28>
+      <Position29>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="385" Column="10" TopLine="368"/>
+      </Position29>
+      <Position30>
+        <Filename Value="gameengine.pas"/>
+        <Caret Line="399" Column="79" TopLine="380"/>
+      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode="default"/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="gameengine.pas"/>
+        <Line Value="5"/>
+      </Item>
+    </BreakPoints>
+    <Watches>
+      <Item>
+        <Expression Value="pendientes.tope"/>
+      </Item>
+      <Item>
+        <Expression Value="i"/>
+      </Item>
+      <Item>
+        <Expression Value="pendientes.posiciones[i].fila"/>
+      </Item>
+      <Item>
+        <Expression Value="pendientes.posiciones[i].columna"/>
+      </Item>
+      <Item>
+        <Expression Value="juego.descubiertas"/>
+      </Item>
+      <Item>
+        <Expression Value="pendientes.posiciones[it].fila"/>
+      </Item>
+      <Item>
+        <Expression Value="pendientes.posiciones[it].columna"/>
+      </Item>
+      <Item>
+        <Expression Value="iT"/>
+      </Item>
+    </Watches>
+  </Debugging>
 </CONFIG>

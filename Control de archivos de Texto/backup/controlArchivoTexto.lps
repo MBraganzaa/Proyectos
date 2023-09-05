@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="95"/>
+        <CursorPos X="71" Y="128"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <Caret Line="44" Column="52" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <Caret Line="113" Column="17" TopLine="81"/>
+      </Position>
+      <Position>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <Caret Line="31" Column="47" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <Caret Line="36" Column="37" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <Caret Line="38" Column="33" TopLine="20"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

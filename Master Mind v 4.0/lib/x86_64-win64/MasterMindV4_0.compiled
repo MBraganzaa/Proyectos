@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1449427374"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw2 -godwarfsets -gl -l -vewnhibq &quot;-FiC:\code\Proyectos\Master Mind v 4.0\lib\x86_64-win64&quot; &quot;-FuC:\code\Proyectos\Master Mind v 4.0\&quot; &quot;-FUC:\code\Proyectos\Master Mind v 4.0\lib\x86_64-win64\&quot; &quot;-FEC:\code\Proyectos\Master Mind v 4.0\&quot; &quot;-oC:\code\Proyectos\Master Mind v 4.0\MasterMindV4_0.exe&quot; MasterMindV4_0.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

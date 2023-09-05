@@ -23,14 +23,15 @@ type
  atributo tope igual a 0 indica que la lista está vacía.}
  THistoria = record
  info : array [1..MAX_INTENTOS] of TRegistroNota;
-  tope : array [0..MAX_INTENTOS] of  byte;
+  tope : array [1..MAX_INTENTOS] of  byte;
  end;
 
  var
    codigo : TCodigo;
    histori : THistoria;
    errorMensaje : string;
-   i,b, r : byte;
+   i, b, r : byte;
+   errorBoolean : boolean;
 
  ///////////////
  function esAdecuado(c: TCodigo; h: THistoria): boolean;  forward ;
@@ -87,9 +88,16 @@ end;
 
 {Calcula las notas de codAdivinador en función de codPensador. Asigna los buenos
 y los regulares a los argumentos con el mismo nombre.}
-procedure calcularNota(codAdivinador, codPensador: TCodigo; var buenos, regulares: byte);
+procedure calcularNota(buenos, regulares: byte; errorB: boolean);
 begin
+  if errorB then begin
+      writeln('ME DI CUENTA... HAS HECHO TRAMPA');
+      exit;
+  end;
 
+  if buenos = LARGO_CODIGO then begin
+  writeln('LO ADIVINE... ponlo mas dificil la proxima');
+  end else writeln('NO PUDE... la proxima sera mia');
 end;
 
 {Imprime el codigo en la salida. Deja el cursor justo al final.}
@@ -108,26 +116,83 @@ parámetro codigo. Por ejemplo:
  AAAA --> AAAB
  ABCH --> ABDA (En este caso y el siguiente H es la letra más grande admitida)
  HHHH --> AAAA}
-procedure siguienteCodigo(var codigo: TCodigo; h: THistoria);
+procedure siguienteCodigo(var codigo: TCodigo; h: THistoria; cod: TCodigo; var errorB : boolean);
+var validar, val, valid: boolean;
+    n, i, m, p , g: byte;
 begin
+  errorB := false;
   i:=LARGO_CODIGO;
+  n:=LARGO_CODIGO - 1;
+  m:=LARGO_CODIGO - 2;
+  p:=LARGO_CODIGO - 3;
+
   repeat
         case codigo[i] of
-        'A' : begin codigo[i]:= 'B';
-              if i = 0 then begin i:= 4; end
-        end;
+        'A' : begin codigo[i]:= 'B'; validar:=false;  val:=false; valid:=false; end;
         'B' : codigo[i]:= 'C';
         'C' : codigo[i]:= 'D';
-        'D' : codigo[i]:= 'E';
+        'D' : codigo[i]:= 'E';   // cgah
         'E' : codigo[i]:= 'F';
         'F' : codigo[i]:= 'G';
         'G' : codigo[i]:= 'H';
         'H' : begin
-                   codigo[i]:= 'A';
-                   i-=1;
-                   end;
+              codigo[i]:= 'A';
+              validar:= true;
+        end;
+        end;
+  if (cod = codigo) and (g = 40) then begin
+  errorB:= true;
+  exit;
+  end;
+  if validar then begin
+    case codigo[n] of
+        'A' : codigo[n]:= 'B';
+        'B' : codigo[n]:= 'C';
+        'C' : codigo[n]:= 'D';
+        'D' : codigo[n]:= 'E';
+        'E' : codigo[n]:= 'F';
+        'F' : codigo[n]:= 'G';
+        'G' : codigo[n]:= 'H';
+        'H' : begin
+              codigo[n]:= 'A';
+              val:= true;
+        end;
+        end;
+        end;
+
+  if val then begin
+    case codigo[m] of
+        'A' : codigo[m]:= 'B';
+        'B' : codigo[m]:= 'C';
+        'C' : codigo[m]:= 'D';
+        'D' : codigo[m]:= 'E';
+        'E' : codigo[m]:= 'F';
+        'F' : codigo[m]:= 'G';
+        'G' : codigo[m]:= 'H';
+        'H' : begin
+              codigo[m]:= 'A';
+              valid:= true;
+        end;
+        end;
+        end;
+
+  if valid then begin
+    case codigo[p] of
+        'A' : codigo[p]:= 'B';
+        'B' : codigo[p]:= 'C';
+        'C' : codigo[p]:= 'D';
+        'D' : codigo[p]:= 'E';
+        'E' : codigo[p]:= 'F';
+        'F' : codigo[p]:= 'G';
+        'G' : codigo[p]:= 'H';
+        'H' : begin
+              codigo[p]:= 'A';
+              g+=1;
+        end;
+        end;
         end;
   until esAdecuado(codigo,h);
+
 end;
 
 
@@ -135,7 +200,9 @@ end;
 function crearHistoria(var h: THistoria): THistoria;
 var i: byte;
 begin
-  for i:= 1 to MAX_INTENTOS do h.tope[i]:=0;
+  for i:= 1 to MAX_INTENTOS do begin
+  h.tope[i]:=0;
+  end;
 end;
 
 {Retorna TRUE si la historia está vacía, FALSE en caso contrario}
@@ -151,7 +218,7 @@ end;
 {Guarda en la historia un nuevo código con sus respectivas notas asociadas}
 procedure guardarNota(var h: THistoria; c: TCodigo; b, r: byte);
 var registro: TRegistroNota;
-    i, s: byte;
+    i: byte;
 
 begin
   for i:=1 to MAX_INTENTOS do begin
@@ -178,14 +245,12 @@ function esAdecuado(c: TCodigo; h: THistoria): boolean;
 var buenosExtra, regularesExtra, i, j, n, s: byte;
     codigoExtra, codigoExtraC: TCodigo;
 begin
-
   for s:=1 to MAX_INTENTOS do begin
 
   codigoExtraC:= c;
   codigoExtra:= h.info[s].codigo;
   buenosExtra:= 0;
   regularesExtra:= 0;
-
 
   if not esHistoriaVacia(h,s) then begin
      for i:=1 to LARGO_CODIGO do begin
@@ -199,23 +264,22 @@ begin
        for j:=1 to LARGO_CODIGO do begin
        for n:=1 to LARGO_CODIGO do begin
            if c[n] = h.info[s].codigo[j] then begin
-             case c[n] of
-             '1' : ;
-             '2' : ;
-             else begin
+             if c[n] = '1' then begin
+             c[n]:= '1';
+             end else if c[n] = '2'then begin
+             c[n]:='2';
+             end else begin
               regularesExtra+=1;
               h.info[s].codigo[j]:=('2');
               c[n]:='2';
-              end;
-
-              end;
-
-           end;
+              end; end;
          end;
          end;
      end else exit;
+
      h.info[s].codigo:= codigoExtra;
      c:= codigoExtraC;
+
      if (buenosExtra = h.info[s].buenos) and (regularesExtra = h.info[s].regulares) then begin
         result:= true;
      end else begin
@@ -227,18 +291,18 @@ begin
 end;
 
 begin
+errorBoolean:= false;
 writeln('MasterMind V3.0');
 writeln('Dispones de ',MAX_INTENTOS,' para adivinar el codigo ');
 writeln;
 crearHistoria(histori);
 generarCodigo(codigo);
-for i:= 1 to MAX_INTENTOS do begin
+repeat
+i+=1;
 imprimirCodigo(codigo,i);
 guardarNota(histori,codigo,b,r);
-siguienteCodigo(codigo,histori);
-end;
-
-
-
+siguienteCodigo(codigo,histori,codigo,errorBoolean);
+until (b = LARGO_CODIGO) or (i = MAX_INTENTOS) or errorBoolean;
+calcularNota(b,r,errorBoolean);
 readln;
 end.
