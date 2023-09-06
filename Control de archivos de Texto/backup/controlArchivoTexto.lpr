@@ -6,6 +6,7 @@ var  archivo : TextFile;
      opcionActual : char;
      nombreArchivo, nombreTemporal, lineaTexto : string;
      finDeEscritura : boolean;
+     listaDeArchivos : TSearchRec;
 
 {En caso de que exista el archivo se abre y se muestra el contenido.}
 procedure mostrarTextoDeArchivo(nombre : string);
@@ -126,8 +127,28 @@ begin
                  writeln('El archivo no se pudo renombrar.');
                  readln;
             end;
-       '5': writeln('ok');
-       '6': writeln('ok');
+       end;
+
+       '5': begin
+            write('Ingresa el nombre del archivo que desea eliminar: ');
+            readln(nombreArchivo);
+            // deleteFile retorna true si pudo eliminar el archivo y false si es que no.
+            if deleteFile(nombreArchivo) then begin
+                writeln('Se elimino correctamente.');
+                readln;
+            end else begin
+                writeln('no se pudo eliminar el archivo.');
+                readln;
+            end;
+       end;
+       '6': begin
+            if FindFirst('*.txt',faAnyFile,listaDeArchivos) = 0 then begin
+              repeat
+                writeln(listaDeArchivos.Name,'   ',listaDeArchivos.Size);
+              until FindNext(listaDeArchivos) <> 0 ;
+              readln;
+            end;
+       end;
     end;
 
   until opcionActual = '0' ;

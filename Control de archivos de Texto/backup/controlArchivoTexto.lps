@@ -9,13 +9,13 @@
         <Filename Value="controlArchivoTexto.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="95"/>
-        <CursorPos X="71" Y="128"/>
-        <UsageCount Value="21"/>
+        <TopLine Value="121"/>
+        <CursorPos X="22" Y="149"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="4">
+    <JumpHistory HistoryIndex="6">
       <Position>
         <Filename Value="controlArchivoTexto.lpr"/>
         <Caret Line="44" Column="52" TopLine="27"/>
@@ -35,6 +35,14 @@
       <Position>
         <Filename Value="controlArchivoTexto.lpr"/>
         <Caret Line="38" Column="33" TopLine="20"/>
+      </Position>
+      <Position>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <Caret Line="128" Column="71" TopLine="95"/>
+      </Position>
+      <Position>
+        <Filename Value="controlArchivoTexto.lpr"/>
+        <Caret Line="148" Column="74" TopLine="117"/>
       </Position>
     </JumpHistory>
     <RunParams>
