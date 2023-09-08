@@ -9,7 +9,7 @@
         <Filename Value="NotepadPas.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="6"/>
-        <UsageCount Value="44"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -21,7 +21,7 @@
         <EditorIndex Value="1"/>
         <TopLine Value="41"/>
         <CursorPos X="83" Y="110"/>
-        <UsageCount Value="44"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -30,8 +30,9 @@
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <CursorPos X="7" Y="101"/>
-        <UsageCount Value="43"/>
+        <TopLine Value="204"/>
+        <CursorPos Y="217"/>
+        <UsageCount Value="47"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -53,123 +54,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="notepad.pas"/>
-        <Caret Line="66" Column="22" TopLine="64"/>
+        <Caret Line="53" Column="57" TopLine="43"/>
       </Position1>
       <Position2>
-        <Filename Value="gui.pas"/>
-        <Caret Line="133" Column="26" TopLine="117"/>
+        <Filename Value="notepad.pas"/>
+        <Caret Line="139" Column="13" TopLine="130"/>
       </Position2>
       <Position3>
         <Filename Value="notepad.pas"/>
-        <Caret Line="150" Column="72" TopLine="139"/>
+        <Caret Line="144" Column="19" TopLine="139"/>
       </Position3>
       <Position4>
         <Filename Value="notepad.pas"/>
-        <Caret Line="177" Column="38" TopLine="166"/>
+        <Caret Line="69" Column="18" TopLine="58"/>
       </Position4>
       <Position5>
-        <Filename Value="gui.pas"/>
-        <Caret Line="126" Column="36" TopLine="115"/>
+        <Filename Value="notepad.pas"/>
+        <Caret Line="171" Column="13" TopLine="162"/>
       </Position5>
       <Position6>
         <Filename Value="notepad.pas"/>
-        <Caret Line="69" Column="15" TopLine="59"/>
+        <Caret Line="74" Column="14" TopLine="63"/>
       </Position6>
       <Position7>
-        <Filename Value="gui.pas"/>
-        <Caret Line="132" Column="35" TopLine="118"/>
+        <Filename Value="notepad.pas"/>
+        <Caret Line="201" Column="21" TopLine="195"/>
       </Position7>
       <Position8>
         <Filename Value="notepad.pas"/>
-        <Caret Line="182" Column="39" TopLine="149"/>
+        <Caret Line="80" Column="19" TopLine="69"/>
       </Position8>
       <Position9>
-        <Filename Value="gui.pas"/>
-        <Caret Line="81" Column="28" TopLine="63"/>
+        <Filename Value="notepad.pas"/>
+        <Caret Line="227" Column="12" TopLine="217"/>
       </Position9>
       <Position10>
         <Filename Value="notepad.pas"/>
-        <Caret Line="46" Column="61" TopLine="29"/>
+        <Caret Line="84" Column="15" TopLine="73"/>
       </Position10>
       <Position11>
         <Filename Value="notepad.pas"/>
-        <Caret Line="77" Column="26" TopLine="62"/>
+        <Caret Line="243" Column="42" TopLine="227"/>
       </Position11>
       <Position12>
         <Filename Value="notepad.pas"/>
-        <Caret Line="43" Column="13" TopLine="32"/>
+        <Caret Line="39" Column="21" TopLine="25"/>
       </Position12>
       <Position13>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="87" Column="32"/>
+        <Filename Value="gui.pas"/>
+        <Caret Line="110" Column="83" TopLine="42"/>
       </Position13>
       <Position14>
         <Filename Value="notepad.pas"/>
-        <Caret Line="53" Column="57" TopLine="43"/>
+        <Caret Line="123" Column="16" TopLine="111"/>
       </Position14>
       <Position15>
         <Filename Value="notepad.pas"/>
-        <Caret Line="139" Column="13" TopLine="130"/>
+        <Caret Line="260" Column="33" TopLine="10"/>
       </Position15>
       <Position16>
         <Filename Value="notepad.pas"/>
-        <Caret Line="144" Column="19" TopLine="139"/>
+        <Caret Line="181" Column="5" TopLine="168"/>
       </Position16>
       <Position17>
         <Filename Value="notepad.pas"/>
-        <Caret Line="69" Column="18" TopLine="58"/>
+        <Caret Line="90" Column="18" TopLine="74"/>
       </Position17>
       <Position18>
         <Filename Value="notepad.pas"/>
-        <Caret Line="171" Column="13" TopLine="162"/>
+        <Caret Line="114" Column="59" TopLine="97"/>
       </Position18>
       <Position19>
         <Filename Value="notepad.pas"/>
-        <Caret Line="74" Column="14" TopLine="63"/>
+        <Caret Line="15" Column="19"/>
       </Position19>
       <Position20>
         <Filename Value="notepad.pas"/>
-        <Caret Line="201" Column="21" TopLine="195"/>
+        <Caret Line="114" Column="34" TopLine="97"/>
       </Position20>
       <Position21>
         <Filename Value="notepad.pas"/>
-        <Caret Line="80" Column="19" TopLine="69"/>
+        <Caret Line="15" Column="50"/>
       </Position21>
       <Position22>
         <Filename Value="notepad.pas"/>
-        <Caret Line="227" Column="12" TopLine="217"/>
+        <Caret Line="186" Column="51" TopLine="155"/>
       </Position22>
       <Position23>
         <Filename Value="notepad.pas"/>
-        <Caret Line="84" Column="15" TopLine="73"/>
+        <Caret Line="219" Column="22" TopLine="192"/>
       </Position23>
       <Position24>
         <Filename Value="notepad.pas"/>
-        <Caret Line="243" Column="42" TopLine="227"/>
+        <Caret Line="186" Column="63" TopLine="170"/>
       </Position24>
       <Position25>
         <Filename Value="notepad.pas"/>
-        <Caret Line="39" Column="21" TopLine="25"/>
+        <Caret Line="216" Column="29" TopLine="199"/>
       </Position25>
       <Position26>
-        <Filename Value="gui.pas"/>
-        <Caret Line="110" Column="83" TopLine="42"/>
+        <Filename Value="notepad.pas"/>
+        <Caret Line="217" TopLine="199"/>
       </Position26>
       <Position27>
         <Filename Value="notepad.pas"/>
-        <Caret Line="123" Column="16" TopLine="111"/>
+        <Caret Line="215" Column="34" TopLine="197"/>
       </Position27>
       <Position28>
         <Filename Value="notepad.pas"/>
-        <Caret Line="260" Column="33" TopLine="10"/>
+        <Caret Line="216" Column="43" TopLine="197"/>
       </Position28>
       <Position29>
         <Filename Value="notepad.pas"/>
-        <Caret Line="181" Column="5" TopLine="168"/>
+        <Caret Line="223" Column="45" TopLine="192"/>
       </Position29>
       <Position30>
         <Filename Value="notepad.pas"/>
-        <Caret Line="90" Column="18" TopLine="74"/>
+        <Caret Line="242" Column="26" TopLine="230"/>
       </Position30>
     </JumpHistory>
     <RunParams>
@@ -178,6 +179,15 @@
     </RunParams>
   </ProjectSession>
   <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="notepad.pas"/>
+        <Line Value="217"/>
+      </Item>
+    </BreakPoints>
     <Watches>
       <Item>
         <Expression Value="aplicacion.hoja.lineasTexto"/>

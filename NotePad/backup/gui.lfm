@@ -1,0 +1,69 @@
+object mainWindow: TmainWindow
+  Left = 451
+  Height = 488
+  Top = 94
+  Width = 575
+  Caption = 'Notepad PAS - Nuevo documento'
+  ClientHeight = 468
+  ClientWidth = 575
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object HojaDeTexto: TMemo
+    Left = 0
+    Height = 472
+    Top = 0
+    Width = 576
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    OnChange = HojaDeTextoChange
+    ScrollBars = ssAutoBoth
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    object menuArchivo: TMenuItem
+      Caption = '&Archivo'
+      ShortCut = 32833
+      object menuArchivo_Nuevo: TMenuItem
+        Caption = '&Nuevo'
+        ShortCut = 16462
+        OnClick = menuArchivo_NuevoClick
+      end
+      object menuArchivo_abrir: TMenuItem
+        Caption = '&Abrir...'
+        ShortCut = 16449
+        OnClick = menuArchivo_abrirClick
+      end
+      object menuArchivo_guardar: TMenuItem
+        Caption = '&Guardar'
+        ShortCut = 16455
+        OnClick = menuArchivo_guardarClick
+      end
+      object menuArchivo_guardarComo: TMenuItem
+        Caption = 'Guardar &como...'
+        ShortCut = 16451
+        OnClick = menuArchivo_guardarComoClick
+      end
+      object MenuItem5: TMenuItem
+        Caption = '-'
+      end
+      object menuArchivo_Salir: TMenuItem
+        Caption = '&Salir'
+        ShortCut = 16467
+        OnClick = menuArchivo_SalirClick
+      end
+    end
+  end
+  object dialogoAbrir: TOpenDialog
+    DefaultExt = '.txt'
+    Filter = 'Texto plano|*.txt'
+    left = 136
+    top = 78
+  end
+  object dialogoGuardar: TSaveDialog
+    DefaultExt = '.txt'
+    FileName = 'nuevoDocumento'
+    Filter = 'Texto plano|*.txt'
+    left = 224
+    top = 108
+  end
+end

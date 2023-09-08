@@ -12,11 +12,7 @@ const
     TEMP_FILE_DEFAULT_NAME= 'temp_notepadpas.tmpka';
 
 type
-    TListaLineas= ^NodoLinea;
-    NodoLinea= record
-        linea: string;
-        siguiente: TListaLineas;
-    end;
+    TListaLineas = array [1..MAX_LINEAS_HOJA] of string;
 
     THoja= record
         lineasTexto: TListaLineas;
@@ -105,63 +101,148 @@ end;
 
 procedure borrarHoja(var aplicacion: TNotepad);
 begin
-
+     aplicacion.hoja.dimension:= 0;
 end;
 
 procedure agregarLinea(linea: String; var aplicacion: TNotepad);
 begin
+     if aplicacion.hoja.dimension<MAX_LINEAS_HOJA then begin
+     aplicacion.hoja.dimension += 1;
+     aplicacion.hoja.lineasTexto[aplicacion.hoja.dimension]:= linea;
 
+     end;
 end;
 
 function cantidadLineas(var aplicacion: TNotepad): integer;
 begin
-
+     result:= aplicacion.hoja.dimension;
 end;
 
 function obtenerLinea(indice: integer; var linea: String;
   var aplicacion: TNotepad): boolean;
 begin
-
+    if (indice<0) and (indice>=aplicacion.hoja.dimension) then begin
+      linea:= aplicacion.hoja.lineasTexto[indice];
+      result:= true;
+    end else begin
+        linea:= '';
+        result:= false;
+    end;
 end;
 
 procedure cambiosPendientes(pendientes: boolean; var aplicacion: TNotepad);
 begin
-
+     aplicacion.cambiosPendientes:= pendientes;
 end;
 
 function cambiosPendientes(var aplicacion: TNotepad): boolean;
 begin
-
+     result:= aplicacion.cambiosPendientes;
 end;
 
 function archivoAbierto(var aplicacion: TNotepad): boolean;
 begin
-
+     result:= aplicacion.archivoAbierto;
 end;
 
 function guardarComo(ruta: String; var aplicacion: TNotepad): boolean;
+var i: integer;
 begin
+     if aplicacion.archivoAbierto then begin
+       closeFile(aplicacion.archivo);
+       aplicacion.archivoAbierto:=false;
+     end;
 
+     AssignFile(aplicacion.archivo,ruta);
+     Rewrite(aplicacion.archivo);
+     aplicacion.rutaArchivo:= ruta;
+
+     for i:=1 to aplicacion.hoja.dimension do begin
+         writeln(aplicacion.archivo,aplicacion.hoja.lineasTexto[i]);
+     end;
+
+     CloseFile(aplicacion.archivo);
+     AssignFile(aplicacion.archivo,ruta);
+     Reset(aplicacion.archivo);
+     aplicacion.archivoAbierto:=true;
+     aplicacion.cambiosPendientes:=false;
 end;
 
 function guardar(var aplicacion: TNotepad): boolean;
+var tempFile: TextFile;
+    i : integer;
+    rutaTempFile: string;
 begin
+     if aplicacion.archivoAbierto and aplicacion.cambiosPendientes then begin
+       //ExtractFilePath contiene todo la ruta del archivo menos el nombre. es decir solo los directorios.
+       rutaTempFile:=ExtractFilePath(aplicacion.rutaArchivo)+TEMP_FILE_DEFAULT_NAME;
+       AssignFile(tempFile,rutaTempFile);
+       reWrite(tempFile);
 
+       for i := 1 to aplicacion.hoja.dimension do begin
+         writeln(tempFile,aplicacion.hoja.lineasTexto[i]);
+       end;
+
+       closeFile(tempFile);
+       closeFile(aplicacion.archivo);
+
+       if DeleteFile(aplicacion.rutaArchivo) then begin
+          // RenameFile cambia el nombre de un archivo.
+          RenameFile(rutaTempFile,aplicacion.rutaArchivo);
+       end else begin
+          DeleteFile(rutaTempFile);
+       end;
+       AssignFile(aplicacion.archivo,aplicacion.rutaArchivo);
+       reset(aplicacion.archivo);
+       aplicacion.cambiosPendientes:= false;
+       aplicacion.archivoAbierto:= true;
+     end;
 end;
 
 function cargarArchivo(ruta: String; var aplicacion: TNotepad): boolean;
+var lineaLeida: string;
 begin
+     with aplicacion do begin
+         if archivoAbierto then begin
+            closeFile(archivo);
+         end;
+     AssignFile(archivo,ruta);
+     reset(archivo);
 
+     archivoAbierto:= true;
+     cambiosPendientes:= false;
+     rutaArchivo:= ruta;
+     hoja.dimension:= 0;
+
+    while not eof(archivo) do begin
+        readln(archivo,lineaLeida);
+        agregarLinea(lineaLeida,aplicacion);
+    end;
+    result:=true;
+    end;
 end;
 
 procedure reiniciar(var aplicacion: TNotepad);
 begin
-
+     with aplicacion do begin
+         if archivoAbierto then begin
+            closeFile(archivo);
+            archivoAbierto:= false;
+            rutaArchivo:= '';
+         end;
+         cambiosPendientes:= false;
+     end;
+     borrarHoja(aplicacion);
 end;
 
 procedure finalizar(var aplicacion: TNotepad);
 begin
-
+     with aplicacion do begin
+         if archivoAbierto then begin
+            closeFile(archivo);
+            archivoAbierto:= false;
+         end;
+     end;
 end;
 
 end.

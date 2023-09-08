@@ -4,12 +4,12 @@
     <PathDelim Value="\"/>
     <Version Value="12"/>
     <BuildModes Active="Default"/>
-    <Units Count="5">
+    <Units Count="9">
       <Unit0>
         <Filename Value="NotepadPas.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="6"/>
-        <UsageCount Value="44"/>
+        <UsageCount Value="49"/>
         <Loaded Value="True"/>
       </Unit0>
       <Unit1>
@@ -19,9 +19,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="41"/>
-        <CursorPos X="83" Y="110"/>
-        <UsageCount Value="44"/>
+        <TopLine Value="90"/>
+        <CursorPos Y="112"/>
+        <UsageCount Value="49"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -29,9 +29,10 @@
         <Filename Value="notepad.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="40" Y="13"/>
-        <UsageCount Value="43"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="110"/>
+        <CursorPos X="31" Y="124"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit2>
       <Unit3>
@@ -49,127 +50,160 @@
         <CursorPos Y="62"/>
         <UsageCount Value="9"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus\lcl\include\menuitem.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="283"/>
+        <CursorPos Y="301"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="2757"/>
+        <CursorPos Y="2776"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wsforms.pp"/>
+        <UnitName Value="Win32WSForms"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="382"/>
+        <CursorPos Y="398"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="386"/>
+        <CursorPos Y="414"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit8>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="66" Column="22" TopLine="64"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2589" TopLine="2564"/>
       </Position1>
       <Position2>
-        <Filename Value="gui.pas"/>
-        <Caret Line="133" Column="26" TopLine="117"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2599" TopLine="2582"/>
       </Position2>
       <Position3>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="150" Column="72" TopLine="139"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2608" TopLine="2582"/>
       </Position3>
       <Position4>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="177" Column="38" TopLine="166"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2612" TopLine="2584"/>
       </Position4>
       <Position5>
-        <Filename Value="gui.pas"/>
-        <Caret Line="126" Column="36" TopLine="115"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2654" TopLine="2637"/>
       </Position5>
       <Position6>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="69" Column="15" TopLine="59"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2667" TopLine="2639"/>
       </Position6>
       <Position7>
-        <Filename Value="gui.pas"/>
-        <Caret Line="132" Column="35" TopLine="118"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2726" TopLine="2709"/>
       </Position7>
       <Position8>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="182" Column="39" TopLine="149"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2732" TopLine="2709"/>
       </Position8>
       <Position9>
-        <Filename Value="gui.pas"/>
-        <Caret Line="81" Column="28" TopLine="63"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2733" TopLine="2709"/>
       </Position9>
       <Position10>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="46" Column="61" TopLine="29"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2734" TopLine="2709"/>
       </Position10>
       <Position11>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="77" Column="26" TopLine="62"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2735" TopLine="2709"/>
       </Position11>
       <Position12>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="43" Column="13" TopLine="32"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2736" TopLine="2709"/>
       </Position12>
       <Position13>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="87" Column="32"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2737" TopLine="2709"/>
       </Position13>
       <Position14>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="53" Column="57" TopLine="43"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2738" TopLine="2710"/>
       </Position14>
       <Position15>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="139" Column="13" TopLine="130"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2739" TopLine="2711"/>
       </Position15>
       <Position16>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="144" Column="19" TopLine="139"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2740" TopLine="2712"/>
       </Position16>
       <Position17>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="69" Column="18" TopLine="58"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2009" TopLine="1991"/>
       </Position17>
       <Position18>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="171" Column="13" TopLine="162"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2743" TopLine="2727"/>
       </Position18>
       <Position19>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="74" Column="14" TopLine="63"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2744" TopLine="2727"/>
       </Position19>
       <Position20>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="201" Column="21" TopLine="195"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2008" TopLine="1990"/>
       </Position20>
       <Position21>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="80" Column="19" TopLine="69"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2745" TopLine="2729"/>
       </Position21>
       <Position22>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="227" Column="12" TopLine="217"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2775" TopLine="2757"/>
       </Position22>
       <Position23>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="84" Column="15" TopLine="73"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <Caret Line="2776" TopLine="2757"/>
       </Position23>
       <Position24>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="243" Column="42" TopLine="227"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32wsforms.pp"/>
+        <Caret Line="398" TopLine="382"/>
       </Position24>
       <Position25>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="39" Column="21" TopLine="25"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <Caret Line="399" TopLine="383"/>
       </Position25>
       <Position26>
-        <Filename Value="gui.pas"/>
-        <Caret Line="110" Column="83" TopLine="42"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <Caret Line="401" TopLine="383"/>
       </Position26>
       <Position27>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="123" Column="16" TopLine="111"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <Caret Line="407" TopLine="383"/>
       </Position27>
       <Position28>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="260" Column="33" TopLine="10"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <Caret Line="408" TopLine="383"/>
       </Position28>
       <Position29>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="181" Column="5" TopLine="168"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <Caret Line="409" TopLine="383"/>
       </Position29>
       <Position30>
-        <Filename Value="notepad.pas"/>
-        <Caret Line="90" Column="18" TopLine="74"/>
+        <Filename Value="C:\lazarus\lcl\interfaces\win32\win32object.inc"/>
+        <Caret Line="408" TopLine="383"/>
       </Position30>
     </JumpHistory>
     <RunParams>
@@ -178,6 +212,15 @@
     </RunParams>
   </ProjectSession>
   <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="notepad.pas"/>
+        <Line Value="217"/>
+      </Item>
+    </BreakPoints>
     <Watches>
       <Item>
         <Expression Value="aplicacion.hoja.lineasTexto"/>
